@@ -45,9 +45,7 @@ require_once("connection.php");
           <li>
             <a href="myads.php">My ads</a>
           </li>
-          <li>
-          <a href="#">Settings</a>
-          </li>
+          
           <?php
         if (isset($_SESSION["isloggedin"])) {
 
